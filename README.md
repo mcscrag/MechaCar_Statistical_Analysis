@@ -19,3 +19,6 @@ Finally, this model is a fairly strong predictor of mpg because the multiple r-s
 ![total summary](total_summary.png)
 
 ![lot summary](lot_summary.png)
+
+The Mecha Car manufacturing specifications dictate that the variance of the suspension coils must not exceed 100 PSI. Based on what we discovered, the total summary of all manufacturing lots meets with specification, however when we break the data down by manufacturing lot we find that Lot 3 has a variance much higher than 100 PSI, which Lots 1 and 2 have a variance much lower. Therefore it appears the Lot 3 is not in compliance with the manufacturing specifications.
+
