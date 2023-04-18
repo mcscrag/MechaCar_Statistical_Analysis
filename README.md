@@ -12,5 +12,10 @@ The slope is not considered to be zero because that would imply that there is no
 
 Finally, this model is a fairly strong predictor of mpg because the multiple r-squared is > 0.7. This suggests a fairly strong correlation between our model and mpg.
 
+## Summary Statistics on Suspension Coils
 
+### The following screenshots show the summary statistics for the PSI data broken down as a total and by manufacturing lot.
 
+![total summary](total_summary.png)
+
+![lot summary](lot_summary.png)
