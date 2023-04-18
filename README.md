@@ -36,9 +36,13 @@ With a p-value of 0.6208 we can confidently say that the mean of all the PSI dat
 
 With a p-value of 1 we can say that the mean of the PSI data for just manufacturing lot 1 is statistically the same as the population mean of 1500 PSI.
 
+### T-test of Lot 2
+
 ![ttest_lot2](ttest_lot2.png)
 
 With a p-value of .6072 we can say that the mean of the PSI data for just manufacturing lot 2 is statistically similar to the population mean of 1500 PSI.
+
+### T-test of Lot 3
 
 ![ttest_lot3](ttest_lot3.png)
 
@@ -46,3 +50,4 @@ With a p-value of .04168 we can say that the mean of the PSI data for just manuf
 
 ## Study Design: MechaCar vs Competition
 
+One of the most important metrics consumers care about when buying a car is reliability. Car maintenance can present a massive 
