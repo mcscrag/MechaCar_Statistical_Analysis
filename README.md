@@ -50,4 +50,11 @@ With a p-value of .04168 we can say that the mean of the PSI data for just manuf
 
 ## Study Design: MechaCar vs Competition
 
-One of the most important metrics consumers care about when buying a car is reliability. Car maintenance can present a massive 
+One of the most important metrics consumers care about when buying a car is reliability. Car maintenance can present a massive disruption in the regular budgeting of families, especially those living with lower incomes. Therefore, we propose a study of the maintenance costs of the MechaCar versus a number of similarly priced models from the competition. 
+
+To conduct this study, data needs to be gathered accounting for maintenance requests and billings across all MechaCar dealerships. Additional data on third party garage maintenance should also be gathered if able. Similar data would need to be gathered for the competition's models. Then we'd propose looking at the average total money spent on maintenance of these cars at 10,000 mile intervals. 
+
+The null hypothesis in this analysis would be that there is a statistically significant difference in the average money spent on maintenance by MechaCar users at each mileage interval compared to other similar models from the competition. The alternative hypothesis would be that there is no statistically significant difference between these averages.
+
+The statistical test we propose using is the paired two-sample t-test. This is because we are comparing samples of cichotomous data from two different populations (the MechaCar vs Competition Car). With the usual confidence level of 0.05 we would be able to see if the difference in average maintenance cost was due to random fluctuations in the data, or due to the fact that one of the cars is more reliable. 
+
