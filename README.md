@@ -22,3 +22,27 @@ Finally, this model is a fairly strong predictor of mpg because the multiple r-s
 
 The Mecha Car manufacturing specifications dictate that the variance of the suspension coils must not exceed 100 PSI. Based on what we discovered, the total summary of all manufacturing lots meets with specification, however when we break the data down by manufacturing lot we find that Lot 3 has a variance much higher than 100 PSI, which Lots 1 and 2 have a variance much lower. Therefore it appears the Lot 3 is not in compliance with the manufacturing specifications.
 
+## T-Tests on Suspension Coils
+
+### T-test of total data
+
+![ttest_total](ttest_total.png)
+
+With a p-value of 0.6208 we can confidently say that the mean of all the PSI data is statistically similar to the population mean of 1500 PSI.
+
+### T-test of Lot 1
+
+![ttest_lot1](ttest_lot1.png)
+
+With a p-value of 1 we can say that the mean of the PSI data for just manufacturing lot 1 is statistically the same as the population mean of 1500 PSI.
+
+![ttest_lot2](ttest_lot2.png)
+
+With a p-value of .6072 we can say that the mean of the PSI data for just manufacturing lot 2 is statistically similar to the population mean of 1500 PSI.
+
+![ttest_lot3](ttest_lot3.png)
+
+With a p-value of .04168 we can say that the mean of the PSI data for just manufacturing lot 3 is NOT statistically similar to the population mean of 1500 PSI. This is consistent with the analysis done in part 2.
+
+## Study Design: MechaCar vs Competition
+
